@@ -1,7 +1,7 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "biggerblackerlotus:item/bigger_blacker_lotus"
+    "layer0": "botania:items/black_lotus_intense"
   },
   "display": {
     "thirdperson_righthand": {
