@@ -88,23 +88,23 @@ minecraft {
     }
 }
 
-    dependencies {
-        minecraft 'net.minecraftforge:forge:1.14.4-28.2.0'
+dependencies {
+    minecraft 'net.minecraftforge:forge:1.14.4-28.2.0'
 
-        // Botania
-        compile fg.deobf(curse.resolve('botania', '2864283'))
-        //Patchouli
-        runtimeOnly fg.deobf(curse.resolve('patchouli', '2875168'))
-        //Curios
-        runtimeOnly fg.deobf(curse.resolve('curios', '2868713'))
-    }
+    // Botania
+    compile fg.deobf(curse.resolve('botania', '2875177'))
+    //Patchouli
+    runtimeOnly fg.deobf(curse.resolve('patchouli', '2875168'))
+    //Curios
+    runtimeOnly fg.deobf(curse.resolve('curios', '2868713'))
+}
 
 // Example for how to get properties into the manifest for reading by the runtime..
 jar {
     manifest {
         attributes([
-            "Specification-Title": "examplemod",
-            "Specification-Vendor": "examplemodsareus",
+            "Specification-Title": "biggerblackerlotus",
+            "Specification-Vendor": "curseforge",
             "Specification-Version": "1", // We are version 1 of ourselves
             "Implementation-Title": project.name,
             "Implementation-Version": "${version}",
