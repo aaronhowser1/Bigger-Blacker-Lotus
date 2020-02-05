@@ -18,7 +18,7 @@ apply plugin: 'com.wynprice.cursemaven'
 
 version = '1.0.0'
 group = 'com.aaronhowser1.biggerblackerlotus' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = 'biggerblackerlotus'
+archivesBaseName = 'BiggerBlackerLotus'
 
 sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = compileJava.targetCompatibility = '1.8' // Need this here so eclipse task generates correctly.
 
